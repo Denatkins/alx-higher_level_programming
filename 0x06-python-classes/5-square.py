@@ -5,39 +5,39 @@
 class Square:
     """Represents a square
     Attributes:
-    __size (int): size of a side of the square
+        __size (int): size of a side of the square
     """
     def __init__(self, size=0):
-    """initializes the square
+        """initializes the square
     Args:
-    size (int): size of a side of the square
+        size (int): size of a side of the square
     Returns:
-    None
+        None
     """
     self.size = size
 
     def area(self):
-    """calculates the square's area
+        """calculates the square's area
     Returns:
-    The area of the square
+        The area of the square
     """
     return (self.__size) ** 2
 
-@property
-def size(self):
-    """getter of __size
+    @property
+    def size(self):
+        """getter of __size
     Returns:
-    The size of the square
+        The size of the square
     """
     return self.__size
 
-@size.setter
-def size(self, value):
-    """setter of __size
+    @size.setter
+    def size(self, value):
+        """setter of __size
     Args:
-    value (int): size of a side of the square
+        value (int): size of a side of the square
     Returns:
-    None
+        None
     """
     if type(value) is not int:
         raise TypeError("size must be an integer")
@@ -47,13 +47,13 @@ def size(self, value):
         else:
             self.__size = value
 
-            def my_print(self):
-            """prints the square
-            Returns:
+    def my_print(self):
+        """prints the square
+        Returns:
             None
-            """
-            if self.__size == 0:
-                print()
-                return
-            for i in range(self.__size):
-                print("".join(["#" for j in range(self.__size)]))
+        """
+        if self.__size == 0:
+            print()
+            return
+        for i in range(self.__size):
+            print("".join(["#" for j in range(self.__size)]))
