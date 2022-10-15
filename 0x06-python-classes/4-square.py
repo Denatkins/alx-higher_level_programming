@@ -39,6 +39,7 @@ class Square:
         Returns:
             None
         """
+
         if type(value) is not int:
             raise TypeError("size must be an integer")
         else:
