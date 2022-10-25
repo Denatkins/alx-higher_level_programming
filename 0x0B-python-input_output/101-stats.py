@@ -29,10 +29,10 @@ if __name__ == "__main__":
 
             line = line.split()
 
-            try:
-                size += int(line[-1])
-            except (IndexError, ValueError):
-                pass
+    try:
+        size += int(line[-1])
+    except (IndexError, ValueError):
+        pass
 
     try:
         if line[-2] in valid_codes:
