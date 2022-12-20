@@ -11,7 +11,7 @@ if (!parseInt(x)) {
     while (y < x) {
       myVar = myVar + 'X';
       y++;
-   }
-   console.log(myVar);
+    }
+    console.log(myVar);
   }
 }
