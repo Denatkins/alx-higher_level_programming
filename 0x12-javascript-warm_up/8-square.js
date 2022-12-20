@@ -8,7 +8,7 @@ if (!parseInt(x)) {
     let y = 0;
     let myVar = '';
 
-   while (y < x) {
+    while (y < x) {
      myVar = myVar + 'X';
      y++;
    }
