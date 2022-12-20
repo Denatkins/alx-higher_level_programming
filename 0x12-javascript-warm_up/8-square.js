@@ -9,8 +9,8 @@ if (!parseInt(x)) {
     let myVar = '';
 
     while (y < x) {
-     myVar = myVar + 'X';
-     y++;
+      myVar = myVar + 'X';
+      y++;
    }
    console.log(myVar);
   }
